@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NetGlum - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Release/NetGlum.res" /d "NDEBUG" /d "_AFXDLL" "C:\MyProjects\NetGlum\NetGlum.rc"" 
+Creating temporary file "C:\DOCUME~1\k3\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /G6 /MD /W3 /Gi /GX /Gf /Gy /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/NetGlum.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\MyProjects\NetGlum\AboutDlg.cpp"
+"C:\MyProjects\NetGlum\NetGlum.cpp"
+"C:\MyProjects\NetGlum\NetGlumDlg.cpp"
+"C:\MyProjects\NetGlum\Register.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\k3\LOCALS~1\Temp\RSP18.tmp" 
+Creating temporary file "C:\DOCUME~1\k3\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+/nologo /G6 /MD /W3 /Gi /GX /Gf /Gy /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/NetGlum.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\MyProjects\NetGlum\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\k3\LOCALS~1\Temp\RSP19.tmp" 
+Creating temporary file "C:\DOCUME~1\k3\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+netapi32.lib /nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Release/NetGlum.pdb" /machine:I386 /out:"Release/NetGlum.exe" 
+.\Release\AboutDlg.obj
+.\Release\NetGlum.obj
+.\Release\NetGlumDlg.obj
+.\Release\Register.obj
+.\Release\StdAfx.obj
+.\Release\NetGlum.res
+]
+Creating command line "link.exe @C:\DOCUME~1\k3\LOCALS~1\Temp\RSP1A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AboutDlg.cpp
+NetGlum.cpp
+NetGlumDlg.cpp
+Register.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+NetGlum.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
